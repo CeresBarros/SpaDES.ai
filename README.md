@@ -19,11 +19,31 @@ It holds three things:
 - **`skills/`** — the shared team skills (`spades-*`). These are the primary source;
   get them before writing new ones.
 
-## Getting the skills
+## Prerequisites
 
-Clone or sync this repo into a local skills path so Posit Assistant discovers the
-skills, e.g. `~/.agents/skills` or `~/.posit/assistant/skills/`. See
-[`guidelines/03-skills.md`](guidelines/03-skills.md) for details and precedence rules.
+SpaDES.ai is **documentation and configuration, not something you run** — these are the
+tools you need for the SpaDES work itself:
+
+- **Positron** with **Posit Assistant** enabled (the IDE + AI assistant).
+- **R**.
+- **git**, and a **GitHub** account.
+
+You do **not** need to install SpaDES R packages by hand or match specific versions — the
+SpaDES tooling (`Require`, `SpaDES.project::setupProject()`, and each module's package
+list) handles that for you, and the assistant can help. See
+[`guidelines/00-user-setup.md`](guidelines/00-user-setup.md) for detail.
+
+## Getting started
+
+1. Read [`guidelines/00-user-setup.md`](guidelines/00-user-setup.md).
+2. **You decide** the project folder and which repositories it holds; then **ask the
+   assistant** to set up project memory and guardrails and to fetch the skills.
+3. Trust the workspace so project memory, settings, and hooks load.
+4. Use `00b-user-guidelines.md` for day-to-day habits.
+
+Most of the setup can be done by asking the assistant — see the prompt examples in
+`00-user-setup.md`. The `00*` docs are for you; the numbered `01`–`03` docs are reference
+the assistant consults, so you don't need to read them through.
 
 ## Shared vs local
 
@@ -36,9 +56,7 @@ that stay out of this repo. See the "Local instances of these guidelines" sectio
 
 [LandR.ai](https://github.com/CeresBarros/LandR.ai) is an **example** of a SpaDES-based
 system (the LandR module/model ecosystem) that has built its own AI-assisted-development
-support docs and tools. SpaDES.ai is the toolkit-focused sibling: it targets the
-SpaDES *toolkit packages* rather than LandR modules, and is self-contained — it does not
-depend on LandR.ai.
+support docs and tools.
 
 ---
 
