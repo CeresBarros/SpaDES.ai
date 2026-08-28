@@ -135,9 +135,14 @@ Team skills are the primary source — obtain them before writing new ones (shar
 
 ## Generic / misc rules
 
-- **Append an AI-usage disclaimer to all outputs** (code, docs, commit messages, issues,
-  PRs, README, reports): one line, e.g. "Drafted with assistance from Claude (Posit
-  Assistant)." A single repo-wide statement covers a whole repo.
+- **Append an AI-usage disclaimer to all outputs.** Any output produced with AI
+  assistance must carry a brief disclaimer noting that Claude (via Posit Assistant)
+  helped author it — this applies to **all output types**, not just code and docs:
+  commit messages, GitHub issues and PRs (title/body and comments), README and other
+  project docs, code and package/module documentation, and reports. Keep it to one line,
+  e.g. "Drafted with assistance from Claude (Posit Assistant)." For a whole
+  repository/folder, a single repo-wide statement (e.g. in the README) that explicitly
+  covers all its documents is sufficient.
 - Keep punctuation **outside** text formatting unless part of a name (e.g.
   **SpaDES.project** is fine because the dot is part of the name).
 - Write docs for ecologists and scientists of other disciplines that are not computer
