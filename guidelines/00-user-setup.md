@@ -139,7 +139,3 @@ flowchart TD
 Resolution order for a given action: conversation-scoped approvals → project approvals →
 project config → global config → built-in security defaults → tool default (`ask`).
 Hooks are additive (global then project) and never override each other.
-
----
-
-Drafted with assistance from Claude (Posit Assistant).

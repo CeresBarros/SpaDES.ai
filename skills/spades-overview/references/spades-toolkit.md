@@ -62,7 +62,3 @@ queue, and module functions).
 - `SpaDES.addins`, `SpaDES.install`, `SpaDES.docs` — RStudio addins, install helpers,
   documentation site.
 - `pemisc` — miscellaneous Predictive Ecology helpers.
-
----
-
-Drafted with assistance from Claude (Posit Assistant).

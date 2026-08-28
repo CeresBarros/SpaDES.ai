@@ -170,8 +170,4 @@ Scaffold `tests/` include `unitTests.R` + `testthat/`; build small in-memory inp
 `simInit()`/`spades()` (or a helper directly via `sim$.mods$<Module>$<fn>`), and assert on
 the returned `simList`. See `spades-testing` for patterns.
 
----
-
-Drafted with assistance from Claude (Posit Assistant).
-
 <!--Note to Ceres: request input from Eliot and Alex.-->

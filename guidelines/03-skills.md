@@ -107,7 +107,3 @@ created only when a need is not already covered.
 2. **Automatic loading:** the model loads a skill when a task matches its `description`.
 3. **Manual loading:** invoke as a slash command `/skill-name` (unless hidden with
    `user-invocable: false`, or shadowed by a built-in command of the same name).
-
----
-
-Drafted with assistance from Claude (Posit Assistant).

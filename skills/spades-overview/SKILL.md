@@ -59,7 +59,3 @@ cheat-sheet. In brief:
 
 Always prefer inspecting the actual files (module `.R`, `DESCRIPTION`, `tests/`) and the
 real function definitions before acting — the toolkit is large and evolves across versions.
-
----
-
-Drafted with assistance from Claude (Posit Assistant).

@@ -144,7 +144,3 @@ different assistant, you know what to adapt.
   Sachs, H. R., Seo, E., Weldy, M. J., & Betts, M. G. (2026). Thinking Outside the Black
   Box: Seven Guidelines for GenAI Use in the Ecological Sciences. *Ecology and Evolution*,
   16(8), e74118. https://doi.org/10.1002/ece3.74118
-
----
-
-Drafted with assistance from Claude (Posit Assistant).

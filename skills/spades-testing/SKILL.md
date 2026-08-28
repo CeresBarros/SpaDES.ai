@@ -122,8 +122,4 @@ Run them via the devtools workflow — see `spades-package-development` — e.g.
 - Always run from a context where the module's `reqdPkgs` (or the package's dependencies)
   are installed; use `Require()` to load them.
 
----
-
-Drafted with assistance from Claude (Posit Assistant).
-
 <!--Note to Ceres: request input from Eliot and Alex.-->

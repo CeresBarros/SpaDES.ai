@@ -105,8 +105,4 @@ Guidance:
 - Both packages and modules keep a `NEWS.md`; keep entries concise and grouped by version.
 - Write entries in plain language for the non-programmer reader, as above.
 
----
-
-Drafted with assistance from Claude (Posit Assistant).
-
 <!--Note to Ceres: request input from Eliot and Alex.-->

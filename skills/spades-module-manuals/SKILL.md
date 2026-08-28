@@ -22,7 +22,3 @@ For now, use the related skills:
 - `spades-code-documentation` — roxygen2 function docs, in-code comments, and the
   module-metadata `desc` fields the manual draws on.
 - `spades-module-anatomy` — the structure of the module `.R` the manual documents.
-
----
-
-Drafted with assistance from Claude (Posit Assistant).

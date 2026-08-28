@@ -114,7 +114,3 @@ effect in new conversations.
 - No hook fires on token thresholds, so session-length management is a **behavioral**
   prompt, not an enforced action.
 - `ask` can never override a `deny` or restricted-mode/workflow-mode restrictions.
-
----
-
-Drafted with assistance from Claude (Posit Assistant).

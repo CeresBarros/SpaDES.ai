@@ -102,7 +102,3 @@ project settings, and project hooks to load.
 - [ ] `AGENTS.md` created (from the SpaDES.ai template).
 - [ ] Skills obtained/loaded.
 - [ ] Workspace trusted.
-
----
-
-Drafted with assistance from Claude (Posit Assistant).
