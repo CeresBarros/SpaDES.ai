@@ -56,8 +56,8 @@ names — the toolkit's functions change across versions.
    folder, `.R` skeleton, `.Rmd` manual, `tests/`, and `data/CHECKSUMS.txt`.
 2. **Declare the module's interface first** — its inputs, outputs, and parameters, i.e.
    its contract with other modules — in `defineModule()`: `timeunit`, `reqdPkgs` (pin
-   versions/branches), and the `parameters`/`inputObjects`/`outputObjects`. The inputs and
-   outputs are the module's contract with other modules — design them before the logic.
+   versions/branches), and the `parameters`/`inputObjects`/`outputObjects`. Design the
+   inputs and outputs before the logic.
 3. **Write the events**: the `init` event is mandatory, it initializes state and schedules future events;
    recurring events reschedule themselves at `time(sim) + interval`. Keep the actual
    simulation computations in named event/helper functions, not inline in the dispatcher.
@@ -169,4 +169,10 @@ change, reason about how it ripples outward.
 
 Scaffold `tests/` include `unitTests.R` + `testthat/`; build small in-memory inputs, call
 `simInit()`/`spades()` (or a helper directly via `sim$.mods$<Module>$<fn>`), and assert on
-the returned `simList`. (For the LandR test conventions specifically, see `landr-testing`.)
+the returned `simList`. See `spades-testing` for patterns.
+
+---
+
+Drafted with assistance from Claude (Posit Assistant).
+
+<!--Note to Ceres: request input from Eliot and Alex.-->

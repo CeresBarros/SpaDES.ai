@@ -65,6 +65,4 @@ queue, and module functions).
 
 ---
 
-Drafted with assistance from Claude (Posit Assistant)
-
-<!--Note to Ceres: ask Eliot and Alex for input-->
+Drafted with assistance from Claude (Posit Assistant).

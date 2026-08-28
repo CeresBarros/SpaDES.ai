@@ -19,3 +19,7 @@ metadata:
 > roxygen2/NAMESPACE, testthat, devtools/R CMD check, versioning/release).
 
 <!--Note to Ceres: request input from Eliot and Alex.-->
+
+---
+
+Drafted with assistance from Claude (Posit Assistant).

@@ -68,8 +68,6 @@ Use `reproducible::Cache()` and `prepInputs()` for expensive data prep. Guard wi
 URL declared in an input's `sourceURL` metadata with `extractURL("objName", sim)`, and
 pass it to functions like `prepInputs()` to download and prepare the data.
 
-```r
-
 ### 3. `doEvent.<Module>()` dispatcher
 
 ```r
@@ -111,3 +109,7 @@ tests, access them as `sim$.mods$<Module>$<fn>` when they are not exported.
 - Use `newModule()` from `SpaDES.project`/`SpaDES.core` to scaffold a brand-new module.
 - For coding style and dependency preferences (e.g. `data.table`, base pipe `|>`), see
   `spades-module-development`.
+
+---
+
+Drafted with assistance from Claude (Posit Assistant).

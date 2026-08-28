@@ -1,7 +1,7 @@
 # SpaDES.ai
 
 Shared conventions, guidelines, and skills for AI-assisted development on the
-**SpaDES toolkit** — the R packages that implement Spatial Discrete Event Simulation
+**SpaDES toolkit** — the R packages that implement Spatial Discrete Event System
 (`SpaDES.core`, `SpaDES.tools`, `SpaDES.project`, `reproducible`, `Require`, and their
 companions).
 

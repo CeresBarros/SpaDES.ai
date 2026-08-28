@@ -124,6 +124,6 @@ Run them via the devtools workflow — see `spades-package-development` — e.g.
 
 ---
 
-Drafted with assistance from Claude (Posit Assistant)
+Drafted with assistance from Claude (Posit Assistant).
 
-<!--Note to Ceres: ask Eliot and Alex for input-->
+<!--Note to Ceres: request input from Eliot and Alex.-->

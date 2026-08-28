@@ -1,6 +1,6 @@
 ---
 name: spades-overview
-description: Orientation and routing for the SpaDES toolkit — the R packages that implement Spatial Discrete Event Simulation (SpaDES.core, SpaDES.tools, reproducible, Require, SpaDES.project, quickPlot, and companions). Use when starting work in a SpaDES toolkit workspace, when the user mentions SpaDES, a simList, modules, or the toolkit packages, or asks how the toolkit fits together and which other spades-* skill applies.
+description: Orientation and routing for the SpaDES toolkit — the R packages that implement Spatial Discrete Event System (SpaDES.core, SpaDES.tools, reproducible, Require, SpaDES.project, quickPlot, and companions). Use when starting work in a SpaDES toolkit workspace, when the user mentions SpaDES, a simList, modules, or the toolkit packages, or asks how the toolkit fits together and which other spades-* skill applies.
 metadata:
   ecosystem: SpaDES
   version: "1.0"
@@ -8,7 +8,7 @@ metadata:
 
 # SpaDES toolkit overview
 
-SpaDES ("Spatial Discrete Event Simulation") is a set of R packages for building and
+SpaDES ("Spatial Discrete Event System") is a set of R packages for building and
 running spatial simulations from independent, composable **modules**. This is the
 *toolkit* — the framework and its supporting packages — not a particular model. Model
 systems (e.g. LandR, for forest landscapes) are built *on top of* the toolkit and supply
@@ -59,3 +59,7 @@ cheat-sheet. In brief:
 
 Always prefer inspecting the actual files (module `.R`, `DESCRIPTION`, `tests/`) and the
 real function definitions before acting — the toolkit is large and evolves across versions.
+
+---
+
+Drafted with assistance from Claude (Posit Assistant).

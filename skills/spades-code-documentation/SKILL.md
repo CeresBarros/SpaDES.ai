@@ -108,3 +108,5 @@ Guidance:
 ---
 
 Drafted with assistance from Claude (Posit Assistant).
+
+<!--Note to Ceres: request input from Eliot and Alex.-->

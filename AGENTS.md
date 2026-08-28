@@ -6,11 +6,11 @@
 > any SpaDES-toolkit workspace; the copied instance records the specifics of one machine.
 
 This project folder holds the **SpaDES toolkit**: the R packages that implement Spatial
-Discrete Event Simulation and its supporting infrastructure. Such a folder is typically a
+Discrete Event System and its supporting infrastructure. Such a folder is typically a
 working directory that collects many independent package repositories side by side — it is
 **not** itself a single git repository.
 
-SpaDES ("Spatial Discrete Event Simulation") composes independent **modules** into a
+SpaDES ("Spatial Discrete Event System") composes independent **modules** into a
 simulation whose event sequence emerges bottom-up from the modules assembled — there is no
 central controller. This folder holds the *toolkit packages*, not modules; the LandR
 ecosystem is an example of a module/model system built on this toolkit. Toolkit docs:
