@@ -15,9 +15,9 @@ is in `spades-package-development`.
 
 ## Audience and style
 
-SpaDES is used by people who are **not primarily programmers** — ecologists and other
-scientists building or running simulations. Write documentation for that reader: minimize
-jargon, and briefly define any technical term you must use.
+SpaDES is used by people who are **not primarily programmers**. Write docs for ecologists
+and scientists of other disciplines that are not computer scientists/software engineers:
+minimize jargon, and briefly define any technical term you must use.
 
 **Respect the existing documentation style.** Match the surrounding file's tone, level of
 detail, wording, and markup. When a change to the established style or structure seems

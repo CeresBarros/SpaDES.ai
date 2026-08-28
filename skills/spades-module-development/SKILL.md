@@ -82,11 +82,10 @@ names — the toolkit's functions change across versions.
 
 ## Coding conventions
 
-- **Data structures and pipe are a SpaDES preference, not a mandate.** SpaDES developers
-  generally favor `data.table` over `data.frame`/`tibble` for performance and memory at
-  landscape scale, and the base pipe `|>` over the magrittr `%>%` (to decrease number of packages needed). Adopt these by default,
-  but the right choice depends on the kind of module being built — match the conventions
-  and dependencies already in the module/project you are working in.
+- **Use `data.table` and the base pipe.** Favor `data.table` over `data.frame`/`tibble`
+  for performance and memory at landscape scale, and the base pipe `|>` over the magrittr
+  `%>%` (to decrease the number of packages needed). Match the conventions and dependencies
+  already in the module/project you are working in.
 - Read/write parameters via `P(sim)$x` (respects `params(sim)` overrides), state via
   `sim$objName`; keep module-local persistent state in `mod`.
 - Use `reproducible::Cache()`/`prepInputs()` and related functions for expensive or downloaded steps; be

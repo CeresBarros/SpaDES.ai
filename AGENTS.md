@@ -140,8 +140,8 @@ Team skills are the primary source — obtain them before writing new ones (shar
   Assistant)." A single repo-wide statement covers a whole repo.
 - Keep punctuation **outside** text formatting unless part of a name (e.g.
   **SpaDES.project** is fine because the dot is part of the name).
-- Write docs for ecologists who are not computer scientists: minimize jargon, define any
-  technical term you must use.
+- Write docs for ecologists and scientists of other disciplines that are not computer
+  scientists/software engineers: minimize jargon, define any technical term you must use.
 - When a session grows long, suggest the user run `/compact` and `/savememory`.
 
 ---

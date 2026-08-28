@@ -42,6 +42,7 @@ defineModule(sim, list(
   reqdPkgs = list("data.table", "reproducible", "SpaDES.core", "SpaDES.tools"),
   parameters = rbind(
     defineParameter("someParam", "logical", FALSE, NA, NA, desc = "..."),
+    defineParameter(".plotInitialTime", "numeric", NA, NA, NA, desc = "..."),
     defineParameter(".plotInterval", "numeric", NA, NA, NA, desc = "...")
   ),
   inputObjects = bindrows(
@@ -53,8 +54,9 @@ defineModule(sim, list(
 ))
 ```
 
-- **Parameters** with names starting `.` are SpaDES housekeeping (`.plotInterval`,
-  `.saveInitialTime`, `.useParallel`, `.plots`). Keep `min`/`max` as `NA` when not numeric.
+- **Parameters** with names starting `.` are SpaDES housekeeping (`.plotInitialTime`,
+  `.plotInterval`, `.saveInitialTime`, `.useParallel`, `.plots`). Keep `min`/`max` as `NA`
+  when not numeric.
 - **`reqdPkgs`** may pin GitHub packages with `User/repo@branch (>= version)`.
 - Every `expectsInput`/`createsOutput` needs a `desc`; keep object names consistent
   across modules so chains connect (one module's `createsOutput` is another's
