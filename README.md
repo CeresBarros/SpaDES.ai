@@ -42,8 +42,10 @@ list) handles that for you, and the assistant can help. See
 4. Use `00b-user-guidelines.md` for day-to-day habits.
 
 Most of the setup can be done by asking the assistant — see the prompt examples in
-`00-user-setup.md`. The `00*` docs are for you; the numbered `01`–`03` docs are reference
-the assistant consults, so you don't need to read them through.
+`00-user-setup.md`. The `00*` docs are written for you; the numbered `01`–`03` docs are
+reference the assistant consults. You remain responsible for the instructions and content
+the assistant is given, so read the `01`–`03` docs too — they are what the assistant is
+told to do on your behalf.
 
 ## Shared vs local
 

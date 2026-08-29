@@ -1,6 +1,6 @@
 # Project-folder setup for AI-assisted work (reference)
 
-> **Assistant-facing reference** — users can skip; the assistant should study these and
+> **Assistant-facing reference** — the assistant should study these and
 > then consult to obtain detail to execute the steps in `00-user-setup.md`.
 
 Reference for how a working folder is prepared for developing and maintaining the SpaDES

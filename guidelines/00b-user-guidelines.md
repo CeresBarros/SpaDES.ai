@@ -1,16 +1,22 @@
 # Working with the assistant
 
-This is a practical, user-facing guidance on *how* to work with an AI coding assistant on
+This is practical, user-facing guidance on *how* to work with an AI coding assistant on
 the SpaDES toolkit. It has two parts: (1) using the assistant responsibly for scientific
 model development, and (2) day-to-day tips and tools for getting good results.
 
 > **Which assistant this assumes.** This guidance assumes you're running Posit Assistant
-> in Positron, powered by Anthropic Cluade models. Slash commands (e.g. `/clear`, `/compact`, `/savememory`) 
+> in Positron, powered by Anthropic Claude models. Slash commands (e.g. `/clear`, `/compact`, `/savememory`) 
 > and UI details may
 > differ in RStudio and the terminal (TUI), and in other AI coding tools and models
 > (Claude Code, ChatGPT, Copilot) — but the underlying practices carry over everywhere, and
 > only the exact commands and gestures need adapting. Where a command is tool-specific we've
 > done our best to call it out in the portability table below.
+
+> **You are responsible for what the assistant is instructed to do.** The assistant acts on
+> instructions and content from these guidelines, the `AGENTS.md` memory, the skills, and
+> your prompts. Knowing what those instructions say — including the assistant-facing `01`–`03`
+> docs and the skills — is your responsibility, as is reviewing the assistant's output before
+> you rely on it. Nothing here removes that responsibility.
 
 ## Using the assistant for scientific modeling
 
@@ -28,7 +34,7 @@ methods, the AI-authorship footer) rather than restating them.
   existing SpaDES toolkit function, a plain script, or a standard method already does the
   job — consistent with the workspace rule to respect existing methods and style.
 - **The fundamentals of inference still apply.** When you have the assistant wrangle or
-  combine data, keep sampling design, units, and metadata in view, treat merges of unknown
+  combine data, keep sampling design, units, and metadata in view; treat merges of unknown
   provenance as exploratory, to be confirmed against known data; and keep the final say on
   parameterization yourself.
 - **Protect reproducibility and transparency.** The assistant's outputs are stochastic,

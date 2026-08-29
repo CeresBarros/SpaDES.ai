@@ -1,6 +1,6 @@
 # Getting, creating, and loading skills
 
-> **Assistant-facing reference** — users can skip; the assistant should study these and
+> **Assistant-facing reference** — the assistant should study these and
 > then consult to obtain detail to execute the steps in `00-user-setup.md`.
 
 Skills are specialized knowledge modules that Posit Assistant loads **on demand** when

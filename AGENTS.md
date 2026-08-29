@@ -131,7 +131,7 @@ Team skills are the primary source — obtain them before writing new ones (shar
   non-programmers — primarily ecologists); check and justify any style/structure change with
   the user first. Use `@keywords internal` for internal functions whether or not exported —
   but check with the user before adding it to an **exported** function.
-- `spades-manuals` — *(placeholder)* package docs via pkgdown/vignettes.
+- `spades-module-manuals` — *(placeholder)* per-module `.Rmd` manuals.
 
 ## Generic / misc rules
 

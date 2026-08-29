@@ -1,6 +1,6 @@
 # Guardrails for AI-assisted work (reference)
 
-> **Assistant-facing reference** — users can skip; the assistant should study these and
+> **Assistant-facing reference** — the assistant should study these and
 > then consult to obtain detail to execute the steps in `00-user-setup.md`.
 
 Guardrails constrain and guide how a Posit-Assistant-enabled Claude model behaves.

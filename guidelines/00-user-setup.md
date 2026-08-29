@@ -7,9 +7,10 @@ describe how the pieces work once you've configured them.
 This and the other guideline documents assume the use of Posit Assistant, powered by Anthropic Claude models, but can be adapted to other AI interfaces. 
 
 > **Who reads what.** This doc and `00b-user-guidelines.md` are the **user-facing**
-> guidelines — the ones you read. The numbered `01`–`03` docs are **assistant-facing**
-> reference the AI consults when a step needs detail (the `→ detail:` pointers), so you
-> don't need to read them through.
+> guidelines, written for you. The numbered `01`–`03` docs are **assistant-facing**
+> reference the AI consults when a step needs detail (the `→ detail:` pointers). You remain
+> responsible for the instructions and content the assistant is given, so read the `01`–`03`
+> docs too: they define what the assistant is instructed to do on your behalf.
 
 > **Team resources.** Guidelines, the `AGENTS.md` template, and the shared skills all
 > live in one repo:
